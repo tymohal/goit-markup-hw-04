@@ -222,10 +222,10 @@ ul {
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  );
-  background-image: url(../images/hero.jpg);
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
 }
 
 .hero-title {
