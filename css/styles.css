@@ -597,7 +597,7 @@ ul {
   color: var(--second-accent-text-color);
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-transform: uppercase;
   display: block;
   margin: 0;
