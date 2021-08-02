@@ -191,6 +191,31 @@ ul {
   margin-right: 30px;
 }
 
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.icon-mail,
+.icon-smartphone {
+  margin-right: 10px;
+}
+
+.contacts-icon {
+  color: #afb1b8;
+}
+
+.contacts-icon:hover {
+  color: var(--buttons-bg-color);
+}
+
 .section-work {
   padding-bottom: 94px;
 }
@@ -199,7 +224,7 @@ ul {
   display: flex;
   justify-content: center;
 }
-.what-we-do .item + .item {
+.what-we-do .item-list + .item-list {
   margin-left: 30px;
 }
 
@@ -325,8 +350,30 @@ ul {
   margin-bottom: 50px;
 }
 
+.item-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--accent-bg-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-antenna,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  width: 70px;
+  height: 70px;
+}
+
 .section-title,
-.team-title {
+.team-title,
+.clients-title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
@@ -334,6 +381,26 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 50px;
+}
+.clients-icon {
+  fill: #afb1b8;
+}
+
+.clients-icon:hover {
+  fill: var(--buttons-bg-color);
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .feature-list .title {
@@ -366,10 +433,6 @@ ul {
 .team-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
-/*.team-name,
-.team-worker {
-  padding: 30px 32px 32px 30px;
-}*/
 
 .team-name {
   color: var(--title-text-color);
@@ -393,6 +456,74 @@ ul {
   display: block;
   text-align: center;
   padding-bottom: 30px;
+}
+.team-socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.socials-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  fill: #afb1b8;
+  border-radius: 50%;
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedln {
+  width: 20px;
+  height: 20px;
+}
+.clients-title {
+  margin-bottom: 50px;
+
+
+
+.socials-link:hover
+.socials-link:focus{ 
+  fill: #ffffff;
+  background: var(--accent-text-color);
+}
+
+.team-socials .socials-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.clients{
+  margin: 0;
+  padding: 94px 0;
+}
+
+.yaco-company,
+.icon-th-company,
+.icon-company,
+.icon-foster-peters,
+.icon-brand-company,
+.icon-tag-line-company {
+  width: 106px;
+  height: 60px;
+}
+.clients-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.clients-list .clients-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .title {
