@@ -192,12 +192,14 @@ ul {
   width: 16px;
   height: 12px;
   fill: currentColor;
+  vertical-align: middle;
 }
 
 .icon-smartphone {
   width: 10px;
   height: 16px;
   fill: currentColor;
+  vertical-align: middle;
 }
 
 .icon-envelopehover,
