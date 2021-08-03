@@ -489,7 +489,7 @@ ul {
   margin-bottom: 50px;
 }
 
-.socials-link:hover .socials-link:focus {
+.socials-link:hover {
   fill: #ffffff;
   background: var(--accent-text-color);
 }
