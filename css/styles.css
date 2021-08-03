@@ -200,7 +200,7 @@ ul {
   fill: currentColor;
 }
 
-.icon-mail,
+.icon-envelopehover,
 .icon-smartphone {
   margin-right: 10px;
 }
@@ -489,7 +489,8 @@ ul {
   margin-bottom: 50px;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   fill: #ffffff;
   background: var(--accent-text-color);
 }
