@@ -69,6 +69,7 @@ ul {
   margin-right: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
+  
 }
 
 .logo-web-footer {
@@ -170,6 +171,8 @@ ul {
 .auth-nav-item .auth-nav-link {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .feature-list {
@@ -181,6 +184,7 @@ ul {
   padding-bottom: 94px;
   margin-left: 0;
   margin-right: 0;
+  
 }
 
 .feature-list .item:not(:last-child) {
@@ -193,6 +197,8 @@ ul {
   height: 12px;
   fill: currentColor;
   vertical-align: middle;
+  
+  
 }
 
 .icon-smartphone {
@@ -206,6 +212,7 @@ ul {
 .icon-smartphone {
   margin-right: 10px;
 }
+
 
 .contacts-icon {
   color: #afb1b8;
@@ -237,6 +244,7 @@ ul {
 }
 .hero {
   background-color: var(--second-bg-color);
+  max-width: 1600px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -397,22 +405,21 @@ ul {
   cursor: pointer;
 }
 
-.clients-link:hover {
+.clients-link:hover .clients-icon{ 
   fill: var(--buttons-bg-color);
-}
+  
 
-/*.clients-item {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}*/
+
+
+
+ 
+    
+}
+/*.clients-item:hover {
+  fill: var(--buttons-bg-color);
+  border: 1px solid var(--buttons-bg-color);*/
+
+
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -420,6 +427,8 @@ ul {
 .team-container {
   background-color: var(--accent-bg-color);
   margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-item {
   background-color: var(--second-accent-text-color);
