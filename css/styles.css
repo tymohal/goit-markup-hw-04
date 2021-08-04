@@ -6,6 +6,7 @@
   --accent-bg-color: #f5f4fa;
   --buttons-bg-color: #2196f3;
   --second-bg-color: #2f303a;
+  --border-color:#afb1b8;
 
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -392,10 +393,10 @@ ul {
   margin: 0 0 50px;
 }
 .clients-link {
- fill: #afb1b8;
+ fill: var(--border-color);
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--border-color);
   box-sizing: border-box;
   border-radius: 4px;
   padding: 0;
@@ -486,7 +487,7 @@ ul {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  fill: #afb1b8;
+  fill: var(--border-color);
   border-radius: 50%;
 }
 
@@ -503,7 +504,7 @@ ul {
 
 .socials-link:hover,
 .socials-link:focus {
-  fill: #ffffff;
+  fill: var(--second-accent-text-color);
   background: var(--accent-text-color);
 }
 
@@ -640,7 +641,7 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #afb1b8;
+  fill: var(--border-color);
   display: flex;
   justify-content: center;
   align-items: center;
