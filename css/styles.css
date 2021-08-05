@@ -388,6 +388,12 @@ ul {
   margin: 0 0 50px;
   
 }
+
+.section-work{
+  padding-bottom: 94px;
+  padding-top: 0;
+  
+}
 .clients-link {
  fill: var(--border-color);
   width: 170px;
