@@ -606,21 +606,22 @@ ul {
   display: block;
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
+ 
 }
 
 .footer-socials {
   list-style: none;
   cursor: pointer;
   padding: 0;
-  margin: 0;
   margin-left: 70px;
 }
 
 .footer-socials-item {
   display: flex;
-  margin: 0;
+  margin-top: 20px;
   padding: 0;
+  margin-right: 0;
+
 }
 
 .footer-social-link {
