@@ -33,11 +33,12 @@ ul {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 .list {
@@ -151,6 +152,7 @@ ul {
 
 .portofolio-buttons {
   margin-left: 8px;
+  
 }
 .auth-nav .auth-nav-link {
   color: var(--primary-text-color);
@@ -343,6 +345,13 @@ ul {
   background-color: var(--accent-text-color);
   color: var(--second-accent-text-color);
 }
+
+.ibuttons:hover,
+.ibuttons:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .portfolio-buttons-list .ibutton:not(:last-child) {
   margin-right: 8px;
 }
@@ -682,15 +691,16 @@ img {
 
 .portfolio-part {
   width: 370px;
-  border: 1px solid #eeeeee;
+  
   box-sizing: border-box;
   margin-left: 30px;
-  margin-top: 50px;
-  flex-basis: calc((100% - 90px) / 3);
+  margin-top: 30px;
+  flex-basis: calc(100%/3 -30px);
 }
 
 .card-info {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .address:hover,
