@@ -6,7 +6,7 @@
   --accent-bg-color: #f5f4fa;
   --buttons-bg-color: #2196f3;
   --second-bg-color: #2f303a;
-  --border-color:#afb1b8;
+  --border-color: #afb1b8;
 
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -70,7 +70,6 @@ ul {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
-  
 }
 
 .logo-web-footer {
@@ -99,12 +98,10 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-
 
 .site-contact .link {
   color: var(--primary-text-color);
@@ -152,7 +149,6 @@ ul {
 
 .portofolio-buttons {
   margin-left: 8px;
-  
 }
 .auth-nav .auth-nav-link {
   color: var(--primary-text-color);
@@ -179,13 +175,11 @@ ul {
 }
 
 .feature-list {
-  
   display: flex;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  
 }
 
 .feature-list .item:not(:last-child) {
@@ -198,8 +192,6 @@ ul {
   height: 12px;
   fill: currentColor;
   vertical-align: middle;
-  
-  
 }
 
 .icon-smartphone {
@@ -213,7 +205,6 @@ ul {
 .icon-smartphone {
   margin-right: 10px;
 }
-
 
 .contacts-icon {
   color: #afb1b8;
@@ -361,7 +352,6 @@ ul {
   justify-content: center;
   margin: 0;
   padding: 0;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -396,16 +386,14 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 50px;
-  
 }
 
-.section-work{
+.section-work {
   padding-bottom: 94px;
   padding-top: 0;
-  
 }
 .clients-link {
- fill: var(--border-color);
+  fill: var(--border-color);
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-color);
@@ -418,12 +406,10 @@ ul {
   cursor: pointer;
 }
 
-.clients-link:hover { 
-  fill: var(--buttons-bg-color) ;
+.clients-link:hover {
+  fill: var(--buttons-bg-color);
   border: 1px solid var(--buttons-bg-color);
-  }
-   
- 
+}
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -616,7 +602,6 @@ ul {
   display: block;
   margin: 0;
   padding: 0;
- 
 }
 
 .footer-socials {
@@ -631,7 +616,6 @@ ul {
   margin-top: 20px;
   padding: 0;
   margin-right: 0;
-
 }
 
 .footer-social-link {
@@ -690,12 +674,10 @@ img {
 }
 
 .portfolio-part {
-  width: 370px;
-  
   box-sizing: border-box;
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc(100%/3 -30px);
+  flex-basis: calc(100% / 3 -30px);
 }
 
 .card-info {
