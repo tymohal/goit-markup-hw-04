@@ -33,7 +33,7 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -180,6 +180,8 @@ ul {
   display: flex;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   
 }
 
@@ -431,8 +433,8 @@ ul {
 .team-info {
   display: block;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  /*padding-top: 30px;
+  padding-bottom: 10px;*/
 }
 
 .team-list {
@@ -455,6 +457,8 @@ ul {
   letter-spacing: 0.03em;
 }
 
+
+
 .team-work {
   font-size: 16px;
   line-height: 1.19;
@@ -467,7 +471,7 @@ ul {
 .team-worker {
   display: block;
   text-align: center;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
 }
 .team-socials {
   list-style: none;
@@ -477,7 +481,7 @@ ul {
   cursor: pointer;
   padding: 0;
   margin: 0;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
 .socials-link {
