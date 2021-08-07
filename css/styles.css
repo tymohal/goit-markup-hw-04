@@ -681,8 +681,9 @@ img {
 
 .card-info {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  border
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .address:hover,
