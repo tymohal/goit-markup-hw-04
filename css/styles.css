@@ -344,9 +344,6 @@ ul {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-buttons-list .ibutton:not(:last-child) {
-  margin-right: 8px;
-}
 .portfolio-buttons-list {
   list-style: none;
   display: flex;
@@ -354,6 +351,10 @@ ul {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
+}
+
+.ibutton:not(:last-child) {
+  margin-right: 8px;
 }
 
 .item-icon {
