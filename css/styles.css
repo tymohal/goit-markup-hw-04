@@ -669,20 +669,20 @@ img {
   padding: 0;
   margin: 0;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
-.portfolio-part {
-  border: 1px solid #eeeeee;
+.portfolio-type > .portfolio-part {
   box-sizing: border-box;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
 .card-info {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border
 }
 
 .address:hover,
