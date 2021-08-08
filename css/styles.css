@@ -82,8 +82,8 @@ ul {
   margin-top: 0;
   margin-right: 93px;
   margin-bottom: 20px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   padding-right: 0;
 }
 
@@ -602,7 +602,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  display: block;
   margin: 0;
   padding: 0;
 }
@@ -695,12 +694,12 @@ img {
   color: var(--accent-text-color);
 }
 .portofolio-buttons {
-  padding-top: 94px;
-  padding-bottom: 50px;
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 
 .visually-hidden {
